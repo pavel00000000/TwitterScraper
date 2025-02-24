@@ -18,7 +18,7 @@ COPY . .
 WORKDIR "/src/."
 RUN dotnet build "./TwitterScraper.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
-# Этот этап используется для публикации проекта службы, который будет скопирован на последний этап
+# Этот этап используется для публикации проекта службы, который будет скопироаван на последний этап
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "./TwitterScraper.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
