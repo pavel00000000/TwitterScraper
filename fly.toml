@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for twitterscraper on 2025-02-24T13:22:02Z
+# fly.toml app configuration file generated for twitterscraper-pcp9xw on 2025-02-24T14:35:01Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'twitterscraper'
+app = 'twitterscraper-pcp9xw'
 primary_region = 'ams'
 
 [build]
