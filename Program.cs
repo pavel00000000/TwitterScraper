@@ -215,7 +215,7 @@ class TwitterScraper
         }
         catch (Exception)
         {
-            return string.Empty; // Если не удалось найти описание, возвращаем пустую строку
+            return string.Empty; // Если не удалось найти описание, возвращаем пушстую строку
         }
     }
 
